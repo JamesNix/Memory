@@ -1,0 +1,103 @@
+doctype html
+//[if IE 9]><html class="lt-ie10" lang="en" > <![endif]
+html(class="no-js", lang="en")
+  head
+    meta(charset="utf-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    title Memory
+    link(rel="stylesheet", href="css/normalize.css")
+    link(rel="stylesheet", href="css/foundation.css")
+    link(rel="stylesheet", href="css/app.css")
+body
+  #top-spacer
+  .row
+    .small-6.columns
+      span#name Memory
+    .small-6.small-centered.columns#buttonHolder
+      input#play.buttons(type="button" align-"center" value="Play")
+      input#reset.buttons(type="button" align="center" value="Reset")
+  .row
+    .small-4.columns
+      span#score
+    .small-4.columns
+    .small-4.columns
+  .row#board
+    .small-12.small-centered.columns
+      table
+        thead
+        tfoot
+        tbody
+          tr
+            td
+              .tile#t1(data-index=0)
+                .letter#l1
+            td
+              .tile#t2
+                .letter#l2
+            td
+              .tile#t3
+                .letter#l3
+            td
+              .tile#t4
+                .letter#l4
+            td
+              .tile#t5
+                .letter#l5
+          tr
+            td
+              .tile#t6
+                .letter#l6
+            td
+              .tile#t7
+                .letter#l7
+            td
+              .tile#t8
+                .letter#l8
+            td
+              .tile#t9
+                .letter#l9
+            td
+              .tile#t10
+                .letter#l10
+          tr
+            td
+              .tile#t11
+                .letter#l11
+            td
+              .tile#t12
+                .letter#l12
+            td
+              .tile#t13
+                .letter#l13
+            td
+              .tile#t14
+                .letter#l14
+            td
+              .tile#t15
+                .letter#l15
+          tr
+            td
+              .tile#t16
+                .letter#l16
+            td
+              .tile#t17
+                .letter#l17
+            td
+              .tile#t18
+                .letter#l18
+            td
+              .tile#t19
+                .letter#l19
+            td
+              .tile#t20
+                .letter#l20
+
+    script(src="js/vendor/modernizr.js")
+    script(src="js/vendor/jquery.js")
+    script(src="js/vendor/jquery-ui.custom.min.js")
+    script(src="js/vendor/jquery.flip.min.js")
+    script(src="js/vendor/lodash.js")
+    script(src="js/vendor/foundation.js")
+    script(src="js/source/main.js")
+    script($(document).foundation();)
+    
