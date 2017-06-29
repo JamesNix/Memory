@@ -71,7 +71,7 @@
       }, 1000);
     }
     if(match.number === 10){
-      $('#score').append('Matches: ' + match.number + '/' + match.tries + '  ').text('You win!);
+      $('#score').append('Matches: ' + match.number + '/' + match.tries + '  ').text('You win!');
     }
   }
 
